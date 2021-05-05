@@ -9,11 +9,7 @@
     url("../fonts/outlined-iconset.svg#outlined-iconset") format("svg");
   font-weight: normal;
   font-style: normal;
-
 }
-
-
-
 
 [data-icon]:before {
   font-family: "outlined-iconset" !important;
@@ -491,6 +487,3 @@
 .icon-blackboard-graph:before {
   content: "\e095";
 }
-
-
-
