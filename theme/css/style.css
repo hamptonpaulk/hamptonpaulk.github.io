@@ -1,0 +1,73 @@
+**** GENERAL STYLES ****
+section{ background: #fff;  }
+body{ -webkit-font-smoothing: antialiased #fefefe; font-family: "cardo"; color: #555454}
+#main-container{ overflow: hidden; }
+input{ -webkit-appearance: none; }
+input:focus{ outline: none; }
+.nopad{ padding: 0px; }
+.offix{ overflow: hidden; }
+.pad-normal{ padding-top: 66px; padding-bottom: 66px; }
+.pad-large{ padding-top: 99px; padding-bottom: 121px; }
+.pad-large-top{ padding-top: 99px; }
+.pad-large-bottom{ padding-bottom: 99px; }
+.pad-top{ padding-top: 66px; }
+.pad-bottom{ padding-bottom: 66px; }
+.space-top{ margin-top: 22px; }
+.space-top-large{ margin-top: 44px; }
+::selection {color:#fff;background:#444444;}
+::-moz-selection {color:#fff;background:#444444;}
+.alt-h{ font-family: 'Montserrat' sans-serif; font-weight: normal; text-transform: uppercase; letter-spacing: 1px; margin-right: -1px; }
+.highlight-bg{ background-color: #B6A591; }
+
+.btn{ cursor: pointer; border: 2px solid #777; display: inline-block; border-radius: 30px; padding: 14px 33px 14px 33px; text-align: center; text-transform: uppercase; -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none; letter-spacing: 1px !important; }
+.btn:hover{ background: #fff; color: #444444; }
+.btn h6{ font-size: 11px; letter-spacing: 1px; }
+.btn-holder span{ display: inline-block; margin: 0px 11px; font-size: 22px; color: #777;  }
+
+.white-btn{ border-color: #fff; }
+.white-btn:hover h6{ color: #444; }
+
+.page-title{ margin-bottom: 44px; font-weight: normal; }
+.page-title h6{ color: #B6A591; }
+.page-title .line{ display: inline-block; height: 1px; background: #B6A591; position: relative; text-align: center; z-index: 1; margin: 22px 0px 22px 0px; }
+.line .icon{ background: #fefefe; padding: 0px 11px 0px 11px; font-size: 30px; color: #B6A591; position: relative; bottom: 15px; }
+.page-title h1{ font-size: 60px; line-height: 1;  }
+.attention{ border-bottom: 1px solid; padding-bottom: 4px; }
+.text-link{ position: relative; transition: all .2s ease; }
+.text-link .arrow_right{ position: relative; left: 0px; transition: all .2s ease; }
+.text-link:hover .arrow_right{ left: 5px; }
+.icon_heart{ color: #ff1717; }
+
+.title-top{ position: relative; top: 4px; }
+
+.text-divider{ position: relative; background: #f7f7f7; }
+.divider-overlay{ position: absolute; width: 100%; height: 100%; background: #444; opacity: 0.6; z-index: 2; top: 0px; transition: all 1.5s ease; }
+.divider-content{ position: relative; z-index: 3;	 }
+
+.content-divider{ background: #f7f7f7; }
+.content-divider h1{ font-size: 60px; }
+.content-divider .line{ display: inline-block; background: #bbb; height: 1px; margin: 22px 0px; }
+.content-divider .feature-list{ list-style-position: inside; margin-bottom: 33px; font-style: italic; border: 2px solid #ddd; }
+.content-divider .feature-list li{ font-size: 20px; margin-bottom: 11px; }
+
+.content-divider .pricing-table ul li{ color: #777; font-size: 22px; }
+.content-divider .pricing-table{ border: 1px solid #bbb;}
+.content-divider .pricing-table .line{ background: #bbb; height: 1px; }
+
+.hero-header{ background-size: cover !important; }
+.hero-header h1{ text-transform: uppercase; font-size: 80px; color: #fff; letter-spacing: 24px; line-height: 0.8; margin-bottom: 22px; display: inline-block; border-bottom: 3px solid #fff; padding-bottom: 11px; margin-right: -24px; }
+
+.hero-header .divider-content{ margin-top: 88px; margin-bottom: 21px; }
+.hero-header p.lead{ font-size: 26px; }
+
+.inner-container #nav-holder{ position: absolute; top: 0px; width: 100%; }
+.inner-container #navigation{ background: none; }
+.inner-container .menu li a{ color: #fff; }
+.inner-container #logo{ color: #fff; }
+
+/*** TYPOG ***/
+
+.text-white{ color: #fff; }
+.reg-weight{ font-weight: normal; }
+.icon{ display: inline-block; -webkit-backface-visibility: hidden; }
+.line .icon{ background: #fefefe; padding: 0px 11px 0px 11px; font-size: 30px; color: #B6A591; position: relative; bottom: 15px; }
