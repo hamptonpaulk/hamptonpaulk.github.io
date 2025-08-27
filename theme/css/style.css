@@ -1,6 +1,6 @@
 **** GENERAL STYLES ****
 section{ background: #fff;  }
-body{ -webkit-font-smoothing: antialiased #fefefe; font-family: "cardo"; color: #555454}
+body{ -webkit-font-smoothing: antialiased; background: #fefefe; font-family: "cardo"; color: #555454}
 #main-container{ overflow: hidden; }
 input{ -webkit-appearance: none; }
 input:focus{ outline: none; }
